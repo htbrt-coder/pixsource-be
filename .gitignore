@@ -1,5 +1,6 @@
 # Mengabaikan folder node_modules
 node_modules/
+uploads
 
 # Mengabaikan log dan file sementara
 npm-debug.log*

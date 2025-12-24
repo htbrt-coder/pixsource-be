@@ -1,0 +1,7 @@
+CREATE TABLE ps_images (
+  id SERIAL PRIMARY KEY,
+  type VARCHAR(10) NOT NULL,
+  url TEXT NOT NULL,
+  position INT DEFAULT 0,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW()
+);

@@ -1,0 +1,27 @@
+# Mengabaikan folder node_modules
+node_modules/
+
+# Mengabaikan log dan file sementara
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*~
+*.log
+*.log.zip
+
+# Mengabaikan file konfigurasi lingkungan
+#.env
+#.env.*.local
+.env.development
+.env.local
+
+# Mengabaikan file testing
+*.rest
+
+# Mengabaikan direktori build/dist (jika ada)
+dist/
+build/
+
+# Mengabaikan file log dari IDE/editor
+.DS_Store
+.vscode/
